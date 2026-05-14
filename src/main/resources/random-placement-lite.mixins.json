@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.foxatme.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MultiPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

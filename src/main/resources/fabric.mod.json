@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "random-placement-lite",
+	"version": "${version}",
+	"name": "Random Placement Lite",
+	"description": "This lightweight mod adds the ability to randomly place blocks from the hotbar!",
+	"authors": [
+		"FoxatMe"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/Random-Placement-Lite",
+		"sources": "https://github.com/FoxatMe/Random-Placement-Lite",
+		"issues": "https://github.com/FoxatMe/Random-Placement-Lite/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/random-placement/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.foxatme.client.RandomPlacementLiteClient"
+		]
+	},
+	"mixins": [
+		"random-placement-lite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
