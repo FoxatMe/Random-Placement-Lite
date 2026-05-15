@@ -1,6 +1,6 @@
-package dev.foxatme.mixin;
+package dev.foxatme.placementlite.mixin;
 
-import dev.foxatme.client.PlacementManager;
+import dev.foxatme.placementlite.client.PlacementManager;
 import net.minecraft.client.multiplayer.MultiPlayerGameMode;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.InteractionHand;

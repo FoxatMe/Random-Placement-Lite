@@ -1,7 +1,7 @@
-package dev.foxatme.util;
+package dev.foxatme.placementlite.util;
 
-import dev.foxatme.util.inventory.SlotContext;
-import dev.foxatme.util.inventory.SmartStrategy;
+import dev.foxatme.placementlite.util.inventory.SlotContext;
+import dev.foxatme.placementlite.util.inventory.SmartStrategy;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.item.BlockItem;
 
