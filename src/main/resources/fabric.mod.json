@@ -17,7 +17,7 @@
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"dev.foxatme.client.RandomPlacementLiteClient"
+			"dev.foxatme.placementlite.client.RandomPlacementLiteClient"
 		]
 	},
 	"mixins": [

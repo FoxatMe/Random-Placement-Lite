@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "dev.foxatme.mixin",
+	"package": "dev.foxatme.placementlite.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"MultiPlayerGameModeMixin"
