@@ -1,6 +1,6 @@
-package dev.foxatme.client;
+package dev.foxatme.placementlite.client;
 
-import dev.foxatme.util.KeyMappings;
+import dev.foxatme.placementlite.util.KeyMappings;
 import net.fabricmc.api.ClientModInitializer;
 
 public class RandomPlacementLiteClient implements ClientModInitializer {

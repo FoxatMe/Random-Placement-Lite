@@ -1,4 +1,4 @@
-package dev.foxatme.client;
+package dev.foxatme.placementlite.client;
 
 import net.fabricmc.fabric.api.client.rendering.v1.hud.HudElementRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.hud.VanillaHudElements;
@@ -15,7 +15,7 @@ public class OverlayRenderer {
                 Identifier.parse("random-placement:icon"),
                 (graphics, delta) -> {
 
-                    if (!dev.foxatme.util.KeyMappings.enabled) return;
+                    if (!dev.foxatme.placementlite.util.KeyMappings.enabled) return;
 
                     Minecraft mc = Minecraft.getInstance();
 
@@ -28,7 +28,7 @@ public class OverlayRenderer {
                     int y = h / 2 - 18;
 
                     Identifier tex = Identifier.parse(
-                            "random-placement:textures/gui/random-placement/block.png"
+                            "random-placement:textures/gui/rp_icon.png"
                     );
 
                     graphics.blit(

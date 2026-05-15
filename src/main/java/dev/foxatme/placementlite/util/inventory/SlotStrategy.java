@@ -1,4 +1,4 @@
-package dev.foxatme.util.inventory;
+package dev.foxatme.placementlite.util.inventory;
 
 import net.minecraft.client.player.LocalPlayer;
 
